@@ -54,6 +54,8 @@ _The hairy 3 components circuit_
 
 If you don't have a mosfet, you can use a NPN transistor instead with a 4.7K resistor between its base and GPIO4.
 
+![](SimpleRadio.jpg)
+
 C1 capacitor value depends on antenna inductance and target frequency (see below).
 
 As small mosfets like BS270 can handle up to 250 mA, you can design a more powerful transmitter with two complementary mosfets as a NOT gate and a lower value resistor :
